@@ -1,0 +1,153 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  background-color: #f8f8f8;
+  font-family: "Arial", sans-serif;
+}
+h1 {
+  font-size: 72px;
+  font-weight: bold;
+  color: #ffffff;
+  text-align: center;
+}
+h2 {
+  font-size: 36px;
+  font-weight: bold;
+  color: #333;
+}
+h3 {
+  font-size: 30px;
+  font-weight: bold;
+  color: #ffffff;
+  text-align: center;
+}
+p.{
+  font-size:18px;
+  font-weight: normal;
+  color: #333;
+    
+}
+.header {
+  background-image: url("../images/intro-bg.jpg");
+  background-position: top center;
+  height: 799px;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.header h1 {
+  padding-top: 289px;
+}
+.header h3 {
+  margin-top: 14px;
+  margin-bottom: 43px;
+}
+.header ul {
+  list-style: none;
+  text-align: center;
+}
+.header ul li {
+  display: inline-block;
+  margin: 0 17px;
+}
+.header ul li a {
+  display: block;
+  width: 163px;
+  height: 50px;
+  /*color:transparent*/
+  text-indent: ;
+}
+.inner {
+  width: 1064px;
+  margin: 0px auto;
+}
+.header span {
+  display: none;
+}
+.Twiter {
+  background-image: url("../images/u85.png");
+}
+.Google {
+  background-image: url("../images/u80.png");
+}
+.Vkontakte {
+  background-image: url("../images/u90.png");
+}
+.Twiter:hover {
+  background-image: url("../images/u85-r.png");
+}
+.Google:hover {
+  background-image: url("../images/u80-r.png");
+}
+.Vkontakte:hover {
+  background-image: url("../images/u90-r.png");
+}
+
+.content {
+}
+.row {
+  padding: 50px 0;
+  overflow: hidden;
+}
+.right {
+  width: 500px;
+  float: right;
+}
+.left {
+  width: 500px;
+  float: left;
+}
+.row h2 {
+  margin-top: 65px;
+  margin-bottom: 22px;
+}
+.footer {
+  background-image: url("../images/banner-bg-u146-fr.jpg");
+  height: 799px;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.footer h2 {
+  color: #fff;
+  font-family: normal;
+  margin-top: 247px;
+  float: left;
+}
+
+.footer ul {
+  list-style: none;
+  margin-right: px;
+  margin-top: 241px;
+  float: right;
+}
+.footer ul li {
+  margin-left: 34px;
+  float: left;
+}
+.footer a {
+  display: block;
+  width: 163px;
+  height: 50px;
+}
+.footer a span {
+  display: none;
+}
+#Twiter {
+  background-image: url("../images/u85.png");
+}
+#Google {
+  background-image: url("../images/u80.png");
+}
+#Vkontakte {
+  background-image: url("../images/u90.png");
+}
+#Twiter:hover {
+  background-image: url("../images/u85-r.png");
+}
+#Google:hover {
+  background-image: url("../images/u80-r.png");
+}
+#Vkontakte:hover {
+  background-image: url("../images/u90-r.png");
+}
