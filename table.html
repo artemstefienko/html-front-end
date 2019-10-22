@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Table</title>
+    <style>
+      .form {
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <form>
+      <table border="1">
+        <tr class="form">
+          <td colspan="2">Форма заказа</td>
+        </tr>
+        <tr>
+          <td>Ф.И.О</td>
+          <td><input type="text" /></td>
+        </tr>
+        <tr>
+          <td>e-mail</td>
+          <td><input type="email" /></td>
+        </tr>
+        <tr>
+          <td>Выбор товара</td>
+          <td>
+            <select>
+              <option>Курточка</option>
+              <option>Джинсы</option>
+              <option>Кепка</option>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <td>Выберите цвет</td>
+          <td>
+            <input type="radio" name="color" />1<br />
+            <input type="radio" name="color" />2<br />
+            <input type="radio" name="color" />3
+          </td>
+        </tr>
+        <tr>
+          <td colospan="2">
+            <input type="reset" title="Очистить" value="Очистить" />
+            <a href="#" title="Отправить"
+              ><input type="submit" value=" Отправить"
+            /></a>
+          </td>
+        </tr>
+      </table>
+    </form>
+  </body>
+</html>
